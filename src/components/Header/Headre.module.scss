@@ -1,0 +1,20 @@
+.header {
+    position: relative;
+
+    .header__content {
+        display: flex;
+        align-items: center;
+        gap: 15%;
+        position: fixed;
+        z-index: 12;
+      
+        .header__nav {
+          display: flex;
+          gap: 10%;
+      
+          a {
+            width: 100%;
+          }
+        }
+      }
+}
